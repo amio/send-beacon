@@ -1,0 +1,16 @@
+{
+  "name": "send-beacon",
+  "version": "0.0.1",
+  "description": "Beacon API for nodejs",
+  "author": "Amio <amio.jin@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.20.5"
+  },
+  "keywords": [
+    "beacon",
+    "sendBeacon",
+    "nodejs"
+  ]
+}
