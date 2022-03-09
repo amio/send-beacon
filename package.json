@@ -1,6 +1,6 @@
 {
-  "name": "send-beacon",
-  "version": "0.0.1",
+  "name": "@andrewlevada/send-beacon",
+  "version": "0.0.2",
   "description": "Beacon API for nodejs",
   "author": "Amio <amio.jin@gmail.com>",
   "main": "index.js",
