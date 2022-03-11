@@ -1,4 +1,4 @@
-declare module "@andrewlevada/send-beacon" {
+declare module "send-beacon" {
   function sendBeacon(url: string, data: any): void;
   export = sendBeacon;
 }
