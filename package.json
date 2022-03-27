@@ -1,9 +1,10 @@
 {
   "name": "send-beacon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Beacon API for nodejs",
   "author": "Amio <amio.jin@gmail.com>",
   "main": "index.js",
+  "types": "./index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^12.20.5"
@@ -12,5 +13,13 @@
     "beacon",
     "sendBeacon",
     "nodejs"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amio/send-beacon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amio/send-beacon/issues"
+  },
+  "homepage": "https://github.com/amio/send-beacon#readme"
 }

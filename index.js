@@ -32,7 +32,7 @@ function sendBeacon(url, payload) {
 
   const evalString = send.toString() + invokeString
 
-  const subprocess = spawn(process.argv[0], ['-e', evalString], {
+  const subprocess = spawn("node", ['-e', evalString], {
     detached: true,
     stdio: 'ignore'
   })
